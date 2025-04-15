@@ -18,3 +18,24 @@
 //     console.log('Utsav');
 // }
 // func();
+
+
+// function multi(a ,b) {
+//     console.log(a * b)
+// }
+// multi(5,10)
+
+//UNLIMITED arrguments accepted
+
+function add(){
+    let ans = 0
+    for(let i = 0; i < arguments.length; i = i + 1){
+        ans = ans + arguments[0]   
+    }
+    return ans
+    // console.log(arguments)
+}
+
+let result = add(50,30,40,50,60,70)
+console.log(result)
+
