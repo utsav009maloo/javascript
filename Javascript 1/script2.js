@@ -30,7 +30,7 @@
 function add(){
     let ans = 0
     for(let i = 0; i < arguments.length; i = i + 1){
-        ans = ans + arguments[0]   
+        ans = ans + arguments[i]   
     }
     return ans
     // console.log(arguments)
