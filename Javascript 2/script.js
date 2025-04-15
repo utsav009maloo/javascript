@@ -13,14 +13,7 @@
 
 //2.argument Keywords
 
-function addnum(){
-    let ans = 0
-    for(let i = 0 ; i < arguments.length; i = i + 1){
-        ans = ans + arguments[i]
-    }
-    return ans
-    //console.log(arguments)
+const addnum = (...num) => {
+console.log(num)
 }
-
-let result = addnum(10,20,50)
-console.log(result)
+addnum(5,5,5,4,6,8)
