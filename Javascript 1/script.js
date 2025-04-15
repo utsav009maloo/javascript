@@ -15,7 +15,6 @@ let bool = true;
 let u = undefined;
 console.log(str, bool, n, u);*/
 
-
 // result = 10 + '20';
 // console.log(result);
 // console.log(typeof result);
