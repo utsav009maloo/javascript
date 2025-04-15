@@ -31,7 +31,7 @@
 
 
 
-//Ternary Operator
+//Ternary Operator ONLY for one conditions
 // const age = 90;
 // // age >= 18 ? console.log("yes") : console.log("No") 
 // let result = age >= 18 ? 'yes' : 'No'
