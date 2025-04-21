@@ -4,6 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DOM -Query selector</title>
+    <style>
+        .red-color{
+            color: red;
+        }
+        .underline{
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
     <nav class="Block">
@@ -42,6 +50,31 @@
     // // ele.innerText = "WHo are YOU ????"
     // const elet = document.querySelector("div");
     // console.log(elet.children)
-    // </script>
+    // const ele = document.querySelectorAll(".Block");
+    // ele.forEach((e) => {
+    //     console.log(e.innerHTML);
+    // });
+    
+    
+    //ID selector most USED
+    // const el = document.getElementById('username');
+    // // console.log(el.innerText);
+    // el.innerText = ("THE REAL HERO")
+    // el.classList.add("red-color","underline");
+
+    // const elements = document.getElementsByClassName('Block');
+    // // console.log(elements);
+    // for(i = 0; i < elements.length; i++){
+    //     elements.item(i).style.background = "blue";
+    // }
+
+
+    const rem = document.getElementsByClassName('Block');
+    for(i = 0; i < rem.length; i++){
+        rem[i].remove('Block');
+    }
+
+
+    </script>
 </body>
 </html>
