@@ -17,16 +17,33 @@
         <p class="p">Welcome To my Website</p>
     </nav>
     <div class="Block">
-        <h4>Hey,There My name is <span id="username">Utsav Maloo</span>:)</h4>
+        <h4 id="name">Hey,There My name is <span id="username">Utsav Maloo</span>:)</h4>
         <p class="p">Here is code for you</p>
         <pre><code>console.log('Hey THere')</code></pre>
     </div>
-    <button onclick="clicking()">Click Me</button>
+    <!-- <button onclick="clicking()">Click Me</button> -->
+     <button id = clicking>Click Me</button>
     <script>
-        function clicking (){
-            console.log("buttonclicked");
-            alert("ha ho gaya bhai!!!!!!!!!!!");
-        }
+        // function clicking (){
+        //     console.log("buttonclicked");
+        //     alert("ha ho gaya bhai!!!!!!!!!!!");
+        // }
+        const ele = document.getElementById('clicking');
+        // ele.addEventListener("click", function(){
+        //     console.log("I am CLiked")
+        //     // alert("HELLO!!!");
+        // })
+
+        const name = document.getElementById('name');
+        ele.addEventListener('click', () => {
+            if (name.style.color === 'green')
+            name.style.color = 'red'
+        else
+        name.style.color = 'green';
+        })
     </script>
+    <!-- <script>
+        ele.addEventListener("click", () => console.log("HACKED"));        
+    </script> -->
 </body>
 </html>
