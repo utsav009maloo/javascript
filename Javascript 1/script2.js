@@ -33,9 +33,9 @@ function add(){
         ans = ans + arguments[i]   
     }
     return ans
-    // console.log(arguments)
+    console.log(arguments)
 }
 
-let result = add(50,30,40,50,60,70)
-console.log(result)
+// let result = add(50,30,40,50,60,70)
+// console.log(result)
 
