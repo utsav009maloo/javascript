@@ -3,6 +3,6 @@ const uname = document.getElementById('input-username');
 
 button.addEventListener('click', () => {
     const value = uname.value;
-    console.log(uname.value)
-    localStorage.setItem = ("name", value);
+    console.log(value)
+    localStorage.setItem("name", value);
 });
