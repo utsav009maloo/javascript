@@ -5,4 +5,5 @@ button.addEventListener('click', () => {
     const value = uname.value;
     console.log(value)
     localStorage.setItem("name", value);
+    alert("Data Saved")
 });
