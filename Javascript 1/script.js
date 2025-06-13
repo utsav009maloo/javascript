@@ -1,19 +1,19 @@
 //console.log('Hello');
-/*let myName = 'John';
-myName = 'Rahul';
-console.log(myName);*/
+// let myName = 'John';
+// myName = 'Rahul';
+// console.log(myName);
 
 
 //Data types
 //Primitive data types
-/*let num = 10;
-console.log(typeof num);
-let n = null;
-console.log(typeof n);
-let str = 'Hello';
-let bool = true;
-let u = undefined;
-console.log(str, bool, n, u);*/
+// let num = 10;
+// console.log(typeof num);
+// let n = null;
+// console.log(typeof n);
+// let str = 'Hello';
+// let bool = true;
+// let u = undefined;
+// console.log(str, bool, n, u);
 
 // result = 10 + '20';
 // console.log(result);

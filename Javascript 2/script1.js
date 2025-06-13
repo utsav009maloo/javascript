@@ -26,6 +26,6 @@ const work = ['Plumber','fireman','police','doctor']
 // console.log(newnum)//print new array
 
 //Find function
-const num = [1,2,3,4,5,6,7,8]
-let ans = num.find((num) => num === 7)
-console.log(ans)
+// const num = [1,2,3,4,5,6,7,8]
+// let ans = num.find((num) => num === 7)
+// console.log(ans)
